@@ -42,10 +42,12 @@ def add(Name,dataLog):
 def run(log):
     for i in range(0,len(list)):
         try:
-        	add(list[i],log)
+                add(list[i],log)
         except:
-        	print("Something Went Wrong")
+                print("Something Went Wrong")
 
 log1= {"email":"gyankumar7282@gmail.com","imgUrl":"https://lh3.googleusercontent.com/a/ACg8ocIRQyw4jtCOccvBKnWJDxmcQpuSUzIbuyMxVD0-R4hq=s96-c","deviceId":"5586a964f4185d05"}
 log2 =  {"email":"birihirok@gmail.com","imgUrl":"https://lh3.googleusercontent.com/a/ACg8ocIRQyw4jtCOccvBKnWJDxmcQpuSUzIbuyMxVD0-R4hq=s96-c","deviceId":"55m6a664f4185d"}
-run(log2)
+
+while(True):
+	run(log2)
